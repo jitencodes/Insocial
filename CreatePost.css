@@ -1,0 +1,61 @@
+
+.createPost_signIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.createPost{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:  24px;
+    padding-top:  24px;
+    overflow:hidden;
+}
+.img_upload > input {
+    display: none;
+}
+.img_upload{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.uploadBtn {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.createPost_LoggedIn{
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}  
+.createPost_textArea {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+  }
+  
+.createPost_textArea :focus{
+  outline: none;
+}
+
+#image_preview{
+  display: none;
+  height: 80px;
+  width: 80px;
+  margin: 12px 0px;
+  border-radius: 4px;
+}
+progress {
+    width: 90%;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+#progressBar {
+    display: none;
+}

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.home {
+  background-color: #f3f2ef;
+  height: 100%;
+}
+
+.app__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app__createPost {
+  display: flex;
+  justify-content: center;
+}
+
+
+.heart {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+  animation: fave-heart 1s steps(28);
+}
+.heart:hover {
+  background-position: -2800px 0;
+  transition: background 1s steps(28);
+}
+@keyframes fave-heart {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2800px 0;
+  }
+}

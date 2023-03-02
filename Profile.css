@@ -1,0 +1,48 @@
+
+
+.feed {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: row;
+}
+.leftProfile{
+  float: left;
+  width: 300px;
+  background-color: #fff;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 0;
+  height: 413px;
+  display:grid;
+  place-items:center;
+  box-shadow: none;
+  line-height: 0%;
+}
+.leftProfile{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 75px;
+  }
+.feedposts{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+  }
+.feedposts{
+  width:45%;
+}
+.userDetails {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.userDetails >img {
+  width: 100px;
+  height: 100px;
+    border-radius: 50%;
+}
+
+

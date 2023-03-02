@@ -1,0 +1,29 @@
+.commentInput{
+    display: flex;
+    justify-content: space-between;
+}
+.commentInput_textarea{
+    border: none;
+    width: 100%;
+    resize: none;
+    font-size: 16px;
+    margin: 8px 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+
+}
+.commentInput_textarea:hover, .commentInput_textarea:focus{
+    outline: none;
+}
+.commentInput_btn{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.commentInput_btn:hover,.commentInput_btn:focus{
+    outline: none;
+}
